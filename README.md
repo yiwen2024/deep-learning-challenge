@@ -6,17 +6,27 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 Machine learning and neural networks were applied to analyze the dataset of a nonprofit foundation Alphabet Soup that contains historic information of more than 34,000 its funded organizations. The features listed below in the provided dataset were used to create a binary classifier to predict and select the applicants with the best chance of success. 
 
-EIN and NAME—Identification columns
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special considerations for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
+*EIN and NAME—Identification columns
+
+*APPLICATION_TYPE—Alphabet Soup application type
+
+*AFFILIATION—Affiliated sector of industry
+
+*CLASSIFICATION—Government organization classification
+
+*USE_CASE—Use case for funding
+
+*ORGANIZATION—Organization type
+
+*STATUS—Active status
+
+*INCOME_AMT—Income classification
+
+*SPECIAL_CONSIDERATIONS—Special considerations for application
+
+*ASK_AMT—Funding amount requested
+
+*IS_SUCCESSFUL—Was the money used effectively
 
 Instructions
 
@@ -65,7 +75,9 @@ Overview of the analysis:
 
 Results: 
 -The target variable is IS_SUCCESSFUL.
+
 -The features variables are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT.
+
 -The columns 'EIN' and 'NAME' are not targets nor features so they should be removed from the input data.
 
 Original Model Results:
@@ -78,7 +90,11 @@ Original Model Results:
 * Optimizer: 'adam'
 * Epochs: 100
 
+<<<<<<< HEAD
 ![alt text](model_accuracy.png)
+=======
+![model_accuracy](https://github.com/user-attachments/assets/c99b9de5-0b66-4f96-b09f-fd6232afee3a)
+>>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
 
 Optimized Model Results:
 * Accuracy: 78.92%
@@ -90,13 +106,25 @@ Optimized Model Results:
 * Optimizer: 'adam'
 * Epochs: 100
 
+<<<<<<< HEAD
 ![alt text](model_accuracy_opt.png)
+=======
+![model_accuracy_opt](https://github.com/user-attachments/assets/795298fd-24ef-4192-ba28-3eed3a2aadc1)
+>>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
 
 Summary: 
 After optimizing the model, the accuracy increased from 72.85% to 78.92%. The loss decreased from 0.5511 to 0.4528. The major changes were dropping fewer columns and keeping the column "NAME", and changing the activation function for the second hidden layer. In addtion to these actual changes, different number of nodes and hidden layers were tested. Also number of epochs as well as types of optimizer had been tried. The hyperparameters that resulted in the highest accuracy were kepted. 
 
+<<<<<<< HEAD
 Step 5: Copy Files Into Your Repository
+=======
+Step 5: Push Files Into Repository
+>>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
 
 *The file of AlphabetSoupCharity_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
 
 *The file of AlphabetSoupCharity_Optimiztion_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
+<<<<<<< HEAD
+=======
+
+>>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
