@@ -89,12 +89,8 @@ Original Model Results:
 * Output layer: units=1, activation='sigmoid'
 * Optimizer: 'adam'
 * Epochs: 100
-
-<<<<<<< HEAD
-![alt text](model_accuracy.png)
-=======
+  
 ![model_accuracy](https://github.com/user-attachments/assets/c99b9de5-0b66-4f96-b09f-fd6232afee3a)
->>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
 
 Optimized Model Results:
 * Accuracy: 78.92%
@@ -105,26 +101,15 @@ Optimized Model Results:
 * Output layer: units=1, activation='sigmoid'
 * Optimizer: 'adam'
 * Epochs: 100
-
-<<<<<<< HEAD
-![alt text](model_accuracy_opt.png)
-=======
+  
 ![model_accuracy_opt](https://github.com/user-attachments/assets/795298fd-24ef-4192-ba28-3eed3a2aadc1)
->>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
 
 Summary: 
 After optimizing the model, the accuracy increased from 72.85% to 78.92%. The loss decreased from 0.5511 to 0.4528. The major changes were dropping fewer columns and keeping the column "NAME", and changing the activation function for the second hidden layer. In addtion to these actual changes, different number of nodes and hidden layers were tested. Also number of epochs as well as types of optimizer had been tried. The hyperparameters that resulted in the highest accuracy were kepted. 
 
-<<<<<<< HEAD
-Step 5: Copy Files Into Your Repository
-=======
 Step 5: Push Files Into Repository
->>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
 
 *The file of AlphabetSoupCharity_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
 
 *The file of AlphabetSoupCharity_Optimiztion_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
-<<<<<<< HEAD
-=======
 
->>>>>>> 46c4554feeba01a4beaa5aba12e925a03920ac45
