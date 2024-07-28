@@ -109,7 +109,11 @@ After optimizing the model, the accuracy increased from 72.85% to 78.92%. The lo
 
 Step 5: Push Files Into Repository
 
-*The file of AlphabetSoupCharity_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
+*The file of AlphabetSoupCharity_colab is shared through the link 
 
-*The file of AlphabetSoupCharity_Optimiztion_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
+https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
+
+*The file of AlphabetSoupCharity_Optimiztion_colab is shared through the link 
+
+https://colab.research.google.com/drive/1PVzuJ_jT4hzAdej-tqsu9MRA8OxHPoRZ?usp=drive_link
 
