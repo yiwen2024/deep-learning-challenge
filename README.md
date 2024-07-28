@@ -69,8 +69,8 @@ Results:
 -The columns 'EIN' and 'NAME' are not targets nor features so they should be removed from the input data.
 
 Original Model Results:
-* Accuracy: 72.92%
-* Loss: 0.5492
+* Accuracy: 72.85%
+* Loss: 0.5511
 * Hidden layer 1: nodes=20, activation='relu'
 * Hidden layer 2: nodes=10, activation='relu'
 * Hidden layer 3: nodes=5, activation='sigmoid'
@@ -78,11 +78,11 @@ Original Model Results:
 * Optimizer: 'adam'
 * Epochs: 100
 
-C:\Users\Yi\Desktop\deep-learning-challenge\model_accuracy.png
+![alt text](model_accuracy.png)
 
 Optimized Model Results:
-* Accuracy: 78.57%
-* Loss: 0.4549
+* Accuracy: 78.92%
+* Loss: 0.4528
 * Hidden layer 1: nodes=20, activation='relu'
 * Hidden layer 2: nodes=10, activation='tanh'
 * Hidden layer 3: nodes=5, activation='sigmoid'
@@ -90,9 +90,13 @@ Optimized Model Results:
 * Optimizer: 'adam'
 * Epochs: 100
 
-C:\Users\Yi\Desktop\deep-learning-challenge\model_accuracy_opt.png
+![alt text](model_accuracy_opt.png)
 
 Summary: 
-After optimizing the model, the accuracy increased from 72.92% to 78.57%. The loss decreased from 0.5492 to 0.4549. The major changes were dropping fewer columns and keeping the column "NAME", and changing the activation function for the second hidden layer. In addtion to these actual changes, different number of nodes and hidden layers were tested. Also number of epochs as well as types of optimizer had been tried. The hyperparameters that resulted in the highest accuracy were kepted. 
+After optimizing the model, the accuracy increased from 72.85% to 78.92%. The loss decreased from 0.5511 to 0.4528. The major changes were dropping fewer columns and keeping the column "NAME", and changing the activation function for the second hidden layer. In addtion to these actual changes, different number of nodes and hidden layers were tested. Also number of epochs as well as types of optimizer had been tried. The hyperparameters that resulted in the highest accuracy were kepted. 
 
 Step 5: Copy Files Into Your Repository
+
+*The file of AlphabetSoupCharity_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
+
+*The file of AlphabetSoupCharity_Optimiztion_colab is shared through the link https://colab.research.google.com/drive/1dkeTDb0zOOtKVhuiT6C3Xg3Zhs_6BydW?usp=drive_link
