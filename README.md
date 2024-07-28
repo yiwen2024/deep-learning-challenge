@@ -89,8 +89,8 @@ Original Model Results:
 * Output layer: units=1, activation='sigmoid'
 * Optimizer: 'adam'
 * Epochs: 100
-  
-![model_accuracy](https://github.com/user-attachments/assets/c99b9de5-0b66-4f96-b09f-fd6232afee3a)
+
+![model_accuracy](https://github.com/user-attachments/assets/77e28c40-5a37-45d2-bff7-c8c77bb54b55)
 
 Optimized Model Results:
 * Accuracy: 78.92%
@@ -102,7 +102,7 @@ Optimized Model Results:
 * Optimizer: 'adam'
 * Epochs: 100
   
-![model_accuracy_opt](https://github.com/user-attachments/assets/795298fd-24ef-4192-ba28-3eed3a2aadc1)
+![model_accuracy_opt](https://github.com/user-attachments/assets/2a95adfc-2242-48de-bd63-f155df7eb990)
 
 Summary: 
 After optimizing the model, the accuracy increased from 72.85% to 78.92%. The loss decreased from 0.5511 to 0.4528. The major changes were dropping fewer columns and keeping the column "NAME", and changing the activation function for the second hidden layer. In addtion to these actual changes, different number of nodes and hidden layers were tested. Also number of epochs as well as types of optimizer had been tried. The hyperparameters that resulted in the highest accuracy were kepted. 
