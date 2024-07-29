@@ -86,7 +86,7 @@ Original Model Results:
 * Hidden layer 1: nodes=20, activation='relu'
 * Hidden layer 2: nodes=10, activation='relu'
 * Hidden layer 3: nodes=5, activation='sigmoid'
-* Output layer: units=1, activation='sigmoid'
+* Output layer: nodes=1, activation='sigmoid'
 * Optimizer: 'adam'
 * Epochs: 100
 
@@ -98,7 +98,7 @@ Optimized Model Results:
 * Hidden layer 1: nodes=20, activation='relu'
 * Hidden layer 2: nodes=10, activation='tanh'
 * Hidden layer 3: nodes=5, activation='sigmoid'
-* Output layer: units=1, activation='sigmoid'
+* Output layer: nodes=1, activation='sigmoid'
 * Optimizer: 'adam'
 * Epochs: 100
   
